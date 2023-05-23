@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)https://online.codingblocks.com/app/dashboard -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="msvalidate.01" content="FAD3370B879C516ED95DC8FDCCB3537C">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="alternate" href="https://online.codingblocks.com/" hreflang="en"> 
+    <link rel="icon" href="https://online.codingblocks.com/images/favicon-16x16-3e038e86499f66c56e3123eaa09775c0.png" sizes="16x16">
+    <link rel="icon" href="https://online.codingblocks.com/images/favicon-32x32-91fbef76664283dacceda748919854a4.png" sizes="32x32">
+    <link rel="icon" href="https://online.codingblocks.com/images/favicon-96x96-ffbf6d2c1bd4643e507f5618ab9ca895.png" sizes="96x96">
+    <link rel="preload" as="font" href="https://minio.codingblocks.com/public/Bebas_Neue.ttf" type="font/ttf" crossorigin="anonymous">
+
+    
+<meta name="codingblocks-online/config/environment" content="%7B%22modulePrefix%22%3A%22codingblocks-online%22%2C%22podModulePrefix%22%3A%22codingblocks-online%2Fpods%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Fapp%2F%22%2C%22locationType%22%3A%22auto%22%2C%22hbBaseUrl%22%3A%22https%3A%2F%2Fhack.codingblocks.com%22%2C%22discussBaseUrl%22%3A%22https%3A%2F%2Fdiscuss.codingblocks.com%22%2C%22metricsAdapters%22%3A%5B%7B%22name%22%3A%22FacebookPixel%22%2C%22environments%22%3A%5B%22production%22%5D%2C%22config%22%3A%7B%22id%22%3A%221947467048859851%22%7D%7D%2C%7B%22name%22%3A%22GoogleTagManager%22%2C%22environments%22%3A%5B%22production%22%2C%22development%22%5D%2C%22config%22%3A%7B%22id%22%3A%22GTM-TWLQ78S%22%7D%7D%2C%7B%22name%22%3A%22GoogleAnalytics%22%2C%22environments%22%3A%5B%22production%22%2C%22development%22%5D%2C%22config%22%3A%7B%22id%22%3A%22UA-83327907-12%22%7D%7D%2C%7B%22name%22%3A%22gtag%22%2C%22environments%22%3A%5B%22production%22%2C%22development%22%5D%2C%22config%22%3A%7B%22id%22%3A%22UA-83327907-12%22%7D%7D%5D%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Atrue%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22codingblocks-online%22%2C%22version%22%3A%220.0.0%2B6db7795f%22%7D%2C%22vdoplayerTheme%22%3A%229ae8bbe8dd964ddc9bdb932cca1cb59a%22%2C%22dukaanUrl%22%3A%22https%3A%2F%2Fdukaan.codingblocks.com%22%2C%22ember-toggle%22%3A%7B%22includedThemes%22%3A%5B%22ios%22%5D%2C%22defaultTheme%22%3A%22ios%22%2C%22defaultSize%22%3A%22medium%22%7D%2C%22firebase%22%3A%7B%22apiKey%22%3A%22AIzaSyBmhZWgSNL32DCYIouM_iPs4rbtq-NPugo%22%2C%22databaseURL%22%3A%22https%3A%2F%2Fcb-ide-79a73.firebaseio.com%2F%22%2C%22projectId%22%3A%22cb-ide-79a73%22%7D%2C%22talkjs%22%3A%7B%22appId%22%3A%222LhQvB3j%22%7D%2C%22apiHost%22%3A%22https%3A%2F%2Fonline-api.codingblocks.com%22%2C%22publicUrl%22%3A%22https%3A%2F%2Fonline.codingblocks.com%22%2C%22clientId%22%3A5633768694%2C%22oneauthURL%22%3A%22https%3A%2F%2Faccount.codingblocks.com%22%2C%22hackApiHost%22%3A%22https%3A%2F%2Fhack-api.codingblocks.com%22%2C%22hiringblocksUrl%22%3A%22https%3A%2F%2Fhire.codingblocks.com%22%2C%22googleAnalytics%22%3A%7B%22webPropertyId%22%3A%22UA-83327907-12%22%7D%2C%22ember-facebook-pixel%22%3A%7B%22id%22%3A%221947467048859851%22%7D%2C%22OnesignalAppId%22%3A%2201d75aac-5123-4145-b655-ba8d27c5dc13%22%2C%22discordinatorUrl%22%3A%22https%3A%2F%2Fdiscordinator.codingblocks.com%22%2C%22nuxtPublicUrl%22%3A%22https%3A%2F%2Fonline.codingblocks.com%22%2C%22exportApplicationGlobal%22%3Afalse%2C%22ember-modal-dialog%22%3A%7B%7D%2C%22isModuleUnification%22%3Afalse%7D">
+<meta name="cricket-cup/config/environment" content="%7B%22modulePrefix%22%3A%22cricket-cup%22%2C%22podModulePrefix%22%3A%22cricket-cup/pods%22%2C%22environment%22%3A%22production%22%7D">
+<meta name="hiring-blocks/config/environment" content="%7B%22modulePrefix%22%3A%22hiring-blocks%22%2C%22podModulePrefix%22%3A%22hiring-blocks/pods%22%2C%22environment%22%3A%22production%22%2C%22ember-modal-dialog%22%3A%7B%7D%7D">
+
+    <link integrity="" rel="stylesheet" href="./Coding Blocks Online_files/vendor-c65a2f2cf084035e6f9b5260d3003814.css">
+    <link integrity="" rel="stylesheet" href="./Coding Blocks Online_files/codingblocks-online-8f995b0d88fbd22f65a67e89d6f11101.css">
+    <link href="./Coding Blocks Online_files/css" rel="stylesheet">
+    <link href="./Coding Blocks Online_files/css(1)" rel="stylesheet">
+    <link href="./Coding Blocks Online_files/all.css" rel="stylesheet">
+  	<link rel="manifest" href="https://online.codingblocks.com/manifest.json">
+    
+    <!-- Begin Inspectlet Asynchronous Code -->
+    <script type="text/javascript" src="./Coding Blocks Online_files/39a7a751f5"></script><script type="text/javascript" async="" src="./Coding Blocks Online_files/analytics.js.download"></script><script src="./Coding Blocks Online_files/nr-1071.min.js.download"></script><script type="text/javascript" async="" src="./Coding Blocks Online_files/js"></script><script src="./Coding Blocks Online_files/6567667.js.download" type="text/javascript" id="hs-analytics"></script><script src="./Coding Blocks Online_files/banner.js.download" type="text/javascript" id="cookieBanner-6567667" data-cookieconsent="ignore" data-hs-ignore="true" data-loader="hs-scriptloader" data-hsjs-portal="6567667" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="./Coding Blocks Online_files/fb.js.download" type="text/javascript" id="hs-ads-pixel-6567667" data-ads-portal-id="6567667" data-ads-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="6567667" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script type="text/javascript" async="" src="./Coding Blocks Online_files/js(1)"></script><script type="text/javascript" id="sendinblue-js" async="" src="./Coding Blocks Online_files/sa.js.download"></script><script type="text/javascript" async="" src="https://static.bytedance.com/pixel/sdk.js?sdkid=BMIU1MFPH5LM9IN7PTLG"></script><script gtm="GTM-TWLQ78S" type="text/javascript" async="" src="./Coding Blocks Online_files/optimize.js.download"></script><script async="" src="./Coding Blocks Online_files/analytics.js.download"></script><script async="" src="./Coding Blocks Online_files/gtm.js.download"></script><script src="./Coding Blocks Online_files/1947467048859851" async=""></script><script async="" src="./Coding Blocks Online_files/fbevents.js.download"></script><script async="" src="./Coding Blocks Online_files/qevents.js.download"></script><script async="" crossorigin="anonymous" src="./Coding Blocks Online_files/fs.js.download"></script><script type="text/javascript" async="" id="inspsync" src="./Coding Blocks Online_files/inspectlet.js.download"></script><script type="text/javascript">
+    (function() {
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 1725807676]);
+    var ldinsp = function(){
+    if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1725807676&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 0);
+    })();
+    </script>
+
+    <script>
+      window['_fs_debug'] = false;
+      window['_fs_host'] = 'fullstory.com';
+      window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
+      window['_fs_org'] = 'S00H0';
+      window['_fs_namespace'] = 'FS';
+      (function(m,n,e,t,l,o,g,y){
+          if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+          g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
+          o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
+          y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+          g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
+          g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+          g.log = function(a,b){g("log",[a,b])};
+          g.consent=function(a){g("consent",!arguments.length||a)};
+          g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+          g.clearUserCookie=function(){};
+          g._w={};y='XMLHttpRequest';g._w[y]=m[y];y='fetch';g._w[y]=m[y];
+          if(m[y])m[y]=function(){return g._w[y].apply(this,arguments)};
+      })(window,document,window['_fs_namespace'],'script','user');
+      </script>
+
+    <!-- End Inspectlet Asynchronous Code -->
+    <!-- DO NOT MODIFY -->
+    <!-- Quora Pixel Code (JS Helper) -->
+    <script>
+    !function(q,e,v,n,t,s){if(q.qp) return; n=q.qp=function(){n.qp?n.qp.apply(n,arguments):n.queue.push(arguments);}; n.queue=[];t=document.createElement(e);t.async=!0;t.src=v; s=document.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s);}(window, 'script', 'https://a.quora.com/qevents.js');
+    qp('init', '0e6543f4ed0047658c67c5d04a8ace8d');
+    qp('track', 'ViewContent');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://q.quora.com/_/ad/0e6543f4ed0047658c67c5d04a8ace8d/pixel?tag=ViewContent&noscript=1"/></noscript>
+    <!-- End of Quora Pixel Code -->
+    
+    <script src="./Coding Blocks Online_files/OneSignalSDK.js.download" async=""></script>
+     
+    <link rel="preload" href="./Coding Blocks Online_files/vdo.js.download" as="script">
+    <script src="./Coding Blocks Online_files/vdo.js.download"></script>
+
+    <meta name="codingblocks-online/config/asset-manifest" content="%7B%22bundles%22%3A%7B%22cricket-cup%22%3A%7B%22assets%22%3A%5B%7B%22uri%22%3A%22/engines-dist/cricket-cup/assets/engine-88434322ca44a2880f2f7cd6027db374.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22/engines-dist/cricket-cup/assets/engine-vendor-3f3d3d79ac4e3ca78c642c9fe303aba9.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22/engines-dist/cricket-cup/config/environment-e1f2742969023fbbfa9cce67063473be.js%22%2C%22type%22%3A%22js%22%7D%5D%7D%2C%22hiring-blocks%22%3A%7B%22assets%22%3A%5B%7B%22uri%22%3A%22/engines-dist/hiring-blocks/assets/engine-8f54f3642a5d1f9b5ff4ded956ec8aab.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22/engines-dist/hiring-blocks/assets/engine-vendor-3f3d3d79ac4e3ca78c642c9fe303aba9.js%22%2C%22type%22%3A%22js%22%7D%2C%7B%22uri%22%3A%22/engines-dist/hiring-blocks/config/environment-51ffe4fa588c6ad35edfac64aa21d172.js%22%2C%22type%22%3A%22js%22%7D%5D%7D%7D%7D">
+
+    <!-- Newrelic browser integration start -->
+    <script type="text/javascript">
+    window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+    ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"39a7a751f5",applicationID:"37209672",sa:1}
+    </script>
+    <!-- Newrelic browser integration end -->
+
+  <script src="./Coding Blocks Online_files/OneSignalPageSDKES6.js.download" async=""></script><script async="" src="./Coding Blocks Online_files/talk.js.download"></script><script type="text/javascript" async="true" src="./Coding Blocks Online_files/js(2)"></script><script async="" id="notifia" src="https://static.notifia.io/widget.js" initialize="Sjk-4LGY4Ou9"></script><script async="" src="./Coding Blocks Online_files/hotjar-1911643.js.download"></script><script src="./Coding Blocks Online_files/j.php" type="text/javascript"></script><script async="" src="./Coding Blocks Online_files/modules.6fed24b60091da3b9aa3.js.download" charset="utf-8"></script><link rel="stylesheet" href="./Coding Blocks Online_files/OneSignalSDKStyles.css"><script async="" src="./Coding Blocks Online_files/js(3)"></script><meta http-equiv="origin-trial" content="A727AcAeLCei/ZogJHBlJUS63SxP6AeIROo7qXrkjrxkoxBu0eSSmypAHmGYwk4HjBMQp5nxCFODzfVnUIe31AQAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjg4MDgzMTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A727AcAeLCei/ZogJHBlJUS63SxP6AeIROo7qXrkjrxkoxBu0eSSmypAHmGYwk4HjBMQp5nxCFODzfVnUIe31AQAAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjg4MDgzMTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><script type="text/javascript" async="" src="./Coding Blocks Online_files/f.txt"></script><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Coding Blocks Online_files/css2" rel="stylesheet">  <meta name="ember-cli-head-start" content="">
+<title>Coding Blocks Online</title>
+
+  <meta itemprop="name" content="Coding Blocks Online">
+  <meta property="og:title" content="Coding Blocks Online">
+  <meta content="Coding Blocks Online" type="title">
+
+<!---->
+<!---->
+<meta name="twitter:site" content="@CodingBlocksIn">
+<meta property="og:site_name" content="Coding Blocks Online">
+
+<meta property="og:url">
+
+<!---->
+<meta name="ember-cli-head-end" content="">
+<link rel="stylesheet" href="./Coding Blocks Online_files/widget.css" class="jv-css"><style type="text/css">/* Chart.js */
+/*
+ * DOM element rendering detection
+ * https://davidwalsh.name/detect-node-insertion
+ */
+@keyframes chartjs-render-animation {
+	from { opacity: 0.99; }
+	to { opacity: 1; }
+}
+
+.chartjs-render-monitor {
+	animation: chartjs-render-animation 0.001s;
+}
+
+/*
+ * DOM element resizing detection
+ * https://github.com/marcj/css-element-queries
+ */
+.chartjs-size-monitor,
+.chartjs-size-monitor-expand,
+.chartjs-size-monitor-shrink {
+	position: absolute;
+	direction: ltr;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	pointer-events: none;
+	visibility: hidden;
+	z-index: -1;
+}
+
+.chartjs-size-monitor-expand > div {
+	position: absolute;
+	width: 1000000px;
+	height: 1000000px;
+	left: 0;
+	top: 0;
+}
+
+.chartjs-size-monitor-shrink > div {
+	position: absolute;
+	width: 200%;
+	height: 200%;
+	left: 0;
+	top: 0;
+}
+</style></head>
+  <body class="a-ocb pb-0 ember-application">
+    
+
+    <script src="./Coding Blocks Online_files/vendor-0e1a20e5fa7263449d41f8e6d076e85b.js.download"></script>
+    <script src="./Coding Blocks Online_files/codingblocks-online-c4c468b99aa8c040ca1e6e6c674da3b6.js.download"></script>
+
+    <!-- JIVO CHAT -->
+    <script src="./Coding Blocks Online_files/widget.js.download" data-jv-id="ASYGLZQ6UC" async=""></script>
+
+    <!-- TALKJS -->
+    <script>
+      (function(t,a,l,k,j,s){
+      s=a.createElement('script');s.async=1;s.src="https://cdn.talkjs.com/talk.js";a.head.appendChild(s)
+      ;k=t.Promise;t.Talk={v:1,ready:{then:function(f){if(k)return new k(function(r,e){l.push([f,r,e])});l
+      .push([f])},catch:function(){return k&&new k()},c:l}};})(window,document,[]);
+    </script>
+
+    <script src="./Coding Blocks Online_files/index.js.download" async=""></script>
+    <script src="./Coding Blocks Online_files/cbMobileVerification.js.download" async=""></script>
+
+    <div id="ember-basic-dropdown-wormhole"></div>
+  
+
+<div id="modal-overlays"></div><script type="text/javascript" id="">(function(){var a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=document.location.protocol+"//static.bytedance.com/pixel/sdk.js?sdkid\x3dBMIU1MFPH5LM9IN7PTLG";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+<script type="text/javascript" id="hs-script-loader" src="./Coding Blocks Online_files/6567667.js(1).download"></script>
+
+<script type="text/javascript" id="">(function(b,a,c){a=b.createElement("script");a.async=!0;a.id="notifia";a.src="https://static.notifia.io/widget.js";a.setAttribute("initialize",c);b.head.appendChild(a)})(document,"script","Sjk-4LGY4Ou9");</script>
+<script type="text/javascript" id="">(function(){window.sib={equeue:[],client_key:"i6ix3jrd6v7g0ht5ovclg8q8"};window.sendinblue={};for(var a=["track","identify","trackLink","page"],b=0;b<a.length;b++)(function(a){window.sendinblue[a]=function(){var b=Array.prototype.slice.call(arguments);(window.sib[a]||function(){var c={};c[a]=b;window.sib.equeue.push(c)})(b[0],b[1],b[2])}})(a[b]);a=document.createElement("script");b=document.getElementsByTagName("script")[0];a.type="text/javascript";a.id="sendinblue-js";a.async=!0;a.src="https://sibautomation.com/sa.js?key\x3d"+
+window.sib.client_key;b.parentNode.insertBefore(a,b);window.sendinblue.page()})();</script>
+<script type="text/javascript" id="">(function(a,c,e,f,d,b){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)};a._hjSettings={hjid:1911643,hjsv:6};d=c.getElementsByTagName("head")[0];b=c.createElement("script");b.async=1;b.src=e+a._hjSettings.hjid+f+a._hjSettings.hjsv;d.appendChild(b)})(window,document,"https://static.hotjar.com/c/hotjar-",".js?sv\x3d");</script>
+<script type="text/javascript" id="">window._vwo_code=window._vwo_code||function(){var g=532283,h=2E3,k=2500,l=!1,m=1,e="body",d=!1,c=document,f={use_existing_jquery:function(){return l},library_tolerance:function(){return k},finish:function(){if(!d){d=!0;var a=c.getElementById("_vis_opt_path_hides");a&&a.parentNode.removeChild(a)}},finished:function(){return d},load:function(a){var b=c.createElement("script");b.src=a;b.type="text/javascript";b.innerText;b.onerror=function(){_vwo_code.finish()};c.getElementsByTagName("head")[0].appendChild(b)},
+init:function(){window.settings_timer=setTimeout("_vwo_code.finish()",h);var a=c.createElement("style"),b=e?e+"{opacity:0 !important;filter:alpha(opacity\x3d0) !important;background:none !important;}":"",n=c.getElementsByTagName("head")[0];a.setAttribute("id","_vis_opt_path_hides");a.setAttribute("type","text/css");a.styleSheet?a.styleSheet.cssText=b:a.appendChild(c.createTextNode(b));n.appendChild(a);this.load("https://dev.visualwebsiteoptimizer.com/j.php?a\x3d"+g+"\x26u\x3d"+encodeURIComponent(c.URL)+
+"\x26f\x3d"+ +m+"\x26r\x3d"+Math.random());return settings_timer}};window._vwo_settings_timer=f.init();return f}();</script>
+
+<iframe id="cm_iframe" height="0" width="0" src="./Coding Blocks Online_files/cm.html" style="display: none; visibility: hidden;"></iframe><iframe id="_hjSafeContext_41917174" title="_hjSafeContext" tabindex="-1" aria-hidden="true" src="./Coding Blocks Online_files/saved_resource.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div class="page-progress">
+  <div class="bar" data-test-id="data-test-page-progress-bar" style="">
+  </div>
+</div>
+
+<cb-mobile-verification class="hide-cb-mobile-verification-prompt"><template shadowrootmode="open"><style>input{border:none;border-bottom:solid 1px #E95547;background:#15171E;padding:10px 0px}.blurrer{position:fixed;z-index:1000;top:0;left:0;width:100vw;height:100vh;background-color:#939393;opacity:0.5}.cb-mobile-verification-container{background:#15171E;color:white;width:100vw;min-height:100vh;position:fixed;z-index:1001;top:0;right:0;padding:5rem 3rem 3rem 3rem;font-family:'Mulish';transition:0.5s}:host(.hide-cb-mobile-verification-prompt) .cb-mobile-verification-container{right:-100vw}:host(.hide-cb-mobile-verification-prompt) .blurrer{display:none}@media screen and (min-width: 768px){.cb-mobile-verification-container{width:35vw}:host(.hide-cb-mobile-verification-prompt) .cb-mobile-verification-container{right:-35vw}}.btn{padding:10px 10px;border-radius:3px}.btn.btn-primary{background:linear-gradient(90deg, #F26A3E 0%, #FB8133 100%)}.btn:disabled{background:#939393}.header{font-size:20px}.sub-header{font-size:12px;color:#BDBDBD}.social-media-logo{width:15px}</style> <div class="blurrer"></div> <div id="cb-mobile-verification" class="cb-mobile-verification-container"><div class="d-flex justify-content-between align-items-center mb-5"><h2>Verify Your Mobile</h2></div>  <input type="number" placeholder="Enter 10 digit Mobile Number" class="w-100 mb-4"> <button class="btn btn-primary w-100" disabled="">Send OTP</button>  <div class="mb-5 pt-5"><div class="header">Find your dream job</div> 
+    <div class="sub-header mb-4">Trusted by 100k+ students</div> 
+    <img src="https://minio.codingblocks.com/public/company-logo-group.png" alt=""></div> <div class="position-absolute"><a href="https://www.linkedin.com/school/codingblocksindia/" target="_blank"><img class="social-media-logo mr-2" src="https://minio.codingblocks.com/public/linkedin-logo.png" alt=""></a> 
+    <a href="https://twitter.com/codingblocksIN" target="_blank"><img class="social-media-logo mr-2" src="https://minio.codingblocks.com/public/twitter-logo.png" alt=""></a> 
+    <a href="https://github.com/coding-blocks" target="_blank"><img class="social-media-logo" src="https://minio.codingblocks.com/public/github-logo.png" alt=""></a> 
+    <div><a href="https://codingblocks.com/tos.html" class="sub-header" target="_blank">Coding Blocks | Terms of service</a></div></div></div> <link rel="stylesheet" href="https://unpkg.com/@coding-blocks/motley@2.8.6/dist/account/app.min.css"></template></cb-mobile-verification>
+<!---->
+    <div id="ember9" class="ember-view"><div class="row c-topnav navbar justify-content-between align-items-center border-none" style="height: 70px;">
+  <div class="col-6 px-0 d-md-none ">
+    <div class="d-block d-flex align-items-center ml-3">
+      <div class="hamburger-menu mr-3">
+        <div class="ham-toggle">
+          <div class="hamburger" data-ember-action="" data-ember-action-10="10">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+        <img src="./Coding Blocks Online_files/OnlineLogo2020.svg" alt="" srcset="" width="40">
+    </div>
+  </div>
+  <div class="col-6 offset-1 d-md-block d-none pl-0">
+    <div class="navbar">
+      <div class="d-flex main align-items-center px-5">
+        <nav class="nav-menu topheadnav">
+          <ul>
+            <li class="active">
+              <a href="https://online.codingblocks.com/">
+                <img src="./Coding Blocks Online_files/iconLearn.webp" alt="Learn">
+              <span>Learn</span>
+            </a>
+          </li>
+            <li class=""><a href="https://hack.codingblocks.com/">
+              <img src="./Coding Blocks Online_files/iconMonitor.webp" alt="Practice">
+              <span>Practice</span></a></li>
+            <li><a href="https://hire.codingblocks.com/">
+              <img src="./Coding Blocks Online_files/iconHire.webp" alt="Hire">
+              <span>Get Hired</span></a></li>
+            <li><a href="https://ide.codingblocks.com/">
+              <img src="./Coding Blocks Online_files/iconIDE.webp" alt="IDE">
+              <span>IDE</span></a></li>     
+          </ul>
+        </nav><!-- .nav-menu -->
+      </div>
+    </div>
+  </div>
+  <div class="col-5 align-items-center">
+    <ul class="right-nav pull-right">
+
+        <li class="top-nav-option px-4 dsp-none-md pointer">
+          <a class="dropdown-li row align-items-center" href="https://dukaan.codingblocks.com/">
+              <img class="s-20x20" src="./Coding Blocks Online_files/wallet-outline.svg" alt=""> 
+              <span class="ml-2 bold">₹ 850</span>
+          </a>
+        </li>
+      <li class="top-nav-option px-3 d-md-block d-none pointer">
+        <div id="ember11" class="ember-view"><div class="notify-icon" id="notification-icon">
+		<span class="notify-dot new"></span>
+	<img src="./Coding Blocks Online_files/notification-white.svg" alt="">
+</div>
+<div class="pop-up dropdown-ul border-card pt-2 c-notification no-scrollbar " id="notification-box" style="height: 500px; overflow-y: scroll;">
+	<div class="dropdown-li row">
+		<div class="notify-type col-2 justify-content-center align-items-center">
+			<div class="notify-icon">
+					<span class="notify-dot new"></span>
+				<img src="./Coding Blocks Online_files/announcement.svg" alt="">
+			</div>
+		</div>
+		<div class="notify-text col-10">You have no notifications! Check out our
+		fabulous courses below, and gain access to hundreds of hours of high
+		quality video lessons!</div>
+	</div>
+</div>
+</div>
+      </li>
+      <li class="top-nav-option px-3 d-md-block d-none pointer">
+        <div id="ember12" class="ember-view"><div id="cart-icon">
+<!---->	<img src="./Coding Blocks Online_files/cart-white.svg" alt="">
+</div>
+
+<div class="pop-up dropdown-ul border-card c-notification " id="cart-box">
+    <a href="https://online.codingblocks.com/app/dashboard#" target="_blank">
+      <div class="dropdown-li row align-items-left pl-3">
+          Your Cart is empty
+      </div>
+    </a>
+</div>
+</div>
+      </li>
+      <li class="top-nav-option hoverable px-3 d-md-block d-none">
+        <div class="img-desc align-items-center font-sm">
+          <img class="round s-30x30" src="./Coding Blocks Online_files/unnamed.jpg" alt="Profile Pic">
+          <div class="description ml-3">
+            Hi, Anish kumar ravula
+          </div>
+        </div>
+        <div class="pop-up border-card p-3 br-5">
+          <ul class="t-align-l">
+            <li>
+              <a class="black" href="https://account.codingblocks.com/users/me">
+                Profile
+              </a>
+            </li>
+            <div class="divider-h my-3"></div>
+            <li>
+              <a href="https://online.codingblocks.com/app/logout" id="ember13" class="dark-grey ember-view">
+                Logout
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="hamburger-nav b-right overflow-y-auto no-scrollbar hamburger-nav--hidden">
+  <div class="d-flex py-3 justify-content-between align-items-center hamburger-nav__top-bar">
+    <img src="./Coding Blocks Online_files/online-logo-text.png" alt="HB" class="hamburger-nav__ham-logo ml-4">
+    <button class="mr-4 hamburger-nav__cross pointer" data-ember-action="" data-ember-action-14="14">
+      <img src="./Coding Blocks Online_files/wrong_g.png" alt="#">
+    </button>
+  </div>
+  <div class="divider-h"></div>
+
+  <div class="d-flex align-items-center my-4 pl-4">
+    <div class="img-ring s-50x50">
+      <img class="round img" src="./Coding Blocks Online_files/unnamed.jpg" alt="ProfilePic">
+    </div>
+
+    <div class="pl-4">
+      <div class="extra-bold gradient-text font-mds">Anish kumar ravula</div>
+      <div href="https://account.codingblocks.com">
+        <a class="bold orange" href="https://account.codingblocks.com/users/me" data-ember-action="" data-ember-action-15="15">View Profile</a>
+      </div>
+    </div>
+  </div>
+  <div class="mt-5 px-4 overflow-y-auto no-scrollbar">
+    <div class="d-flex justify-content-between">
+      <div class="extra-bold orange">Courses</div>
+      <a href="https://online.codingblocks.com/app/dashboard#" class="orange"><i class="fas fa-angle-up fa-lg"></i></a>
+    </div>
+
+    
+    <div class="my-4 pl-4">
+      <div class="hamburger-nav__menu-element active" data-ember-action="" data-ember-action-16="16">
+        <div class="extra-bold">
+          Online Courses
+        </div>
+        <div class="light"><a href="https://online.codingblocks.com/" target="blank" class="orange">Explore
+            All</a></div>
+      </div>
+      <div class="pl-4">
+        <div class="mt-4">
+          <div class="light extra-bold">Beginner Courses</div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/c-plus-plus-online-course-for-beginners">
+              C++ Master Course | Launchpad
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/complete-java-course-online">
+              Java Master Course | Crux
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/python-for-beginners-developers">
+              Python For Developers
+            </a>
+          </div>
+        </div>
+        <div class="mt-3">
+          <div class="light extra-bold">Advanced Courses</div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/python-django">
+              Web Dev with Python-Django
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/coding-interview-preparation-online">
+              Interview Prep Bootcamp
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/data-structures-and-algorithms-online-course-java-algo">
+              Algo.Java Online
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/android-app-training-online">
+              Android App Development Online
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/telegram-chatbot-python-online">
+              Build Chatbots in Python
+            </a>
+          </div>
+        </div>
+        <div class="mt-3">
+          <div class="light extra-bold">Expert Courses</div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/competitive-programming-course-online">
+              Competitive Programming Online
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/coding-interview-preparation-course-online-c-plus-plus">
+              Interview Preparation - C++
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/machine-learning-course-online">
+              Machine Learning Master Course
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/coding-interview-preparation-course-online-java">
+              Interview Preparation - Java
+            </a>
+          </div>
+          <div class="light">
+            <a href="https://online.codingblocks.com/courses/data-science-online-course-python">
+              Data Science
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="light my-4">
+      <a href="https://codingblocks.com/campus-ambassador-program.html" target="blank">
+        Campus Ambassadors
+      </a>
+    </div>
+    <div class="light my-4">
+      <a href="https://codingblocks.com/about" target="blank">
+        About Us
+      </a>
+    </div>
+    <div class="light my-4">
+      <a href="https://codingblocks.com/centres" target="blank">
+        Contact Us
+      </a>
+    </div>
+    <div class="light my-4">
+      <a class="dark-grey" href="https://online.codingblocks.com/logout">
+        Logout
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+    <div id="ember17" class="ember-view"><div class="c-sidenav bottom-nav col-md-1 col-12">
+  <div class="logo pb-4 pt-4 d-md-block d-none">
+    <a href="https://online.codingblocks.com/app/" id="ember18" class="ember-view">
+      <img src="./Coding Blocks Online_files/OnlineLogo2020.svg" alt="Coding Blocks Online" class="s-50x50" title="Coding Blocks Online">
+    </a>
+  </div>
+
+  <div class="row all-center">
+    <div class="col-2 col-md-12 px-4">
+      <a href="https://online.codingblocks.com/app/dashboard" id="ember19" class="active ember-view nav-element py-4 px-2">
+        <img src="./Coding Blocks Online_files/dashboard_grey.svg" alt="dashboard">
+        <div class="pt-2 d-none d-md-block font-sm card-md">Dashboard</div>
+      </a>
+    </div>
+    <div class="col-2 col-md-12 px-4">
+        <a href="https://online.codingblocks.com/courses" class="nav-element py-4 px-2">
+          <img src="./Coding Blocks Online_files/buy_grey.svg" alt="all courses">
+          <div class="pt-2 d-none d-md-block font-sm card-md">Buy Courses</div>
+        </a>
+    </div>
+      <div class="col-2 col-md-12 px-4">
+        <a href="https://online.codingblocks.com/app/dashboard#" id="ember20" class="ember-view nav-element py-4 px-2">
+          <img src="./Coding Blocks Online_files/tracks_grey.svg" alt="tracks">
+          <div class="pt-2 d-none d-md-block font-sm card-md">Tracks</div>
+        </a>
+      </div>
+    <div class="col-2 col-md-12 px-4">
+      <a href="https://online.codingblocks.com/app/classroom" id="ember21" class="ember-view nav-element py-4 px-2">
+        <img src="./Coding Blocks Online_files/mycourses_grey.svg" alt="">
+        <div class="pt-2 d-none d-md-block font-sm card-md">My Courses</div>
+      </a>
+    </div>
+    <div class="col-2 col-md-12 px-4">
+      <a href="https://online.codingblocks.com/app/jobs" id="ember22" class="ember-view nav-element py-4 px-2">
+        <img src="./Coding Blocks Online_files/job_grey.svg" alt="">
+        <div class="pt-2 d-none d-md-block font-sm card-md">Hiring Blocks</div>
+      </a>
+    </div>
+  </div>
+</div></div>
+
+    <div class="offset-1">
+      <cb-navbar topalign="right"><template shadowrootmode="open"><style>a:hover{text-decoration:underline}.hover-grey.selected:hover{background:unset}.a-hb{display:none}.active-tab:after{content:"";width:98%;height:2px;position:absolute;left:-2px;bottom:-16px;display:block;background:linear-gradient(90deg, #FB8530 0%, #FEB50B 100%)}</style><div class="a-hb d-md-block d-none bg-background-main-3 white"><div class="border"><div class="d-flex justify-content-end py-3 pr-5"><span class="px-3 pointer position-relative false">Courses
+        <img src="https://minio.cb.lk/public/fa-5.13/svgs/solid/chevron-down.svg" alt="chevron" class="d-inline s-10x10"></span> <div class="px-3 position-relative false"><a class="white" href="https://codingblocks.com/about.html" target="_blank">About Us</a></div> <div class="px-3 position-relative false"><a class="white" href="https://codingblocks.com/resources" target="_blank">Resources</a></div> <div class="px-3 position-relative false"><a class="white" href="https://codingblocks.com/campus-ambassador-program.html" target="_blank">Campus Ambassadors</a></div> <div class="px-3 position-relative false"><a class="white" href="https://codingblocks.com/centres/" target="_blank">Contact Us</a></div> <slot name="header"></slot></div></div> </div> <link rel="stylesheet" href="https://unpkg.com/@coding-blocks/motley/dist/online-cb/app.min.css"> <link href="./Coding Blocks Online_files/css(1)" rel="stylesheet"> <link href="https://minio.codingblocks.com/hackerblocks-images/Gilroy.ttf" rel="stylesheet"></template></cb-navbar>
+    </div>
+
+    <div class="offset-md-1 mb-5">
+        <promotion-banner><template shadowrootmode="open"><style>.d-block{display:block;position:relative}.close-icon{position:absolute;right:10px;cursor:pointer;top:10px;width:15px;transition:width 0.1s}.close-icon:hover{width:18px}.d-md-none{display:block}.d-md-block{display:none}.carousel{height:116px;overflow:hidden}@media(min-width:768px){.d-md-none{display:none}.d-md-block{display:block}}</style><div class="carousel"><a class="d-block" target="_blank" href="https://online.codingblocks.com/courses"><img class="close-icon" src="https://minio.codingblocks.com/motley/wrong_g_white.min.png" alt="close"> <img class="d-md-block" src="https://cb3img.s3.ap-south-1.amazonaws.com/img/Summer-Spree-Sale_Wstrip-_2_.webp" alt="" width="100%"> <img class="d-md-none" src="https://cb3img.s3.ap-south-1.amazonaws.com/img/Summer-Spree-Sale_Mstrip-_2_.webp" alt="" width="100%"> </a></div></template></promotion-banner>
+
+      <div id="outside-container"></div>
+      <div class="container">
+        <div class="row justify-content-center mx-0">
+          <div class="pt-4 container-fluid content-container">
+            <div class="row">
+  <div class="col-md-12">
+
+  </div>
+  <div class="col-md-9 col-12">
+    <h4 class="my-4">Continue Learning</h4>
+
+    <div class="border-card border-none bg-background-main-3 p-lg-5 p-4 mb-5">
+      <div class="row no-gutters align-items-center">
+        <div class="col-md-6 col-12">
+          <div class="row no-gutters align-items-center justify-content-between">
+            <img src="./Coding Blocks Online_files/8eabb2bb-ac0c-42a2-b2b3-a01387d99d6c.svg" alt="C++" class="s-70x70 round">
+            <div class="flex-1 pl-4">
+              <h5 class="bold">C++ Master Course | Launchpad</h5>
+              <div class="font-normal mt-2">Mentor:
+                    <!----> Prateek Narang
+                    ,  Kartik Mathur
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 mt-md-0 mt-4">
+          <div class="font-normal">Course Progress</div>
+          <div class="mt-2">
+            <progress value="72" max="100" class="d-inline-block w-80 progress-orange"></progress>
+            <span class="bold ml-3">72%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider-h w-100 mx-auto my-4"></div>
+
+      <div id="ember25" class="ember-view">  
+        <div id="ember101" class="ember-view"><div class="row">
+  <div class="col-xl-5 col-lg-4">
+    <div class="bold font-sm mb-5">Your Performance</div>
+
+    <div class="row align-items-center no-gutters">
+      <div class="col-2">
+        <img src="./Coding Blocks Online_files/performance.svg" alt="">
+      </div>
+      <div class="col-10 pl-2">
+        <h6 class="bold">Great</h6>
+        <div class="font-normal grey-2 mt-2">Your Performance</div>
+      </div>
+    </div>
+    <div class="row align-items-center no-gutters mt-md-5 mt-4">
+      <div class="col-2">
+        <img src="./Coding Blocks Online_files/percentile.svg" alt="">
+      </div>
+      <div class="col-10 pl-2">
+        <h6 class="bold">
+            9/61
+        </h6>
+        <div class="font-normal grey-2 mt-2">Leaderboard Ranking</div>
+      </div>
+    </div>
+    <div class="row align-items-center no-gutters mt-md-5 mt-4">
+      <div class="col-2">
+        <img src="./Coding Blocks Online_files/leaderboard.svg" alt="">
+      </div>
+      <div class="col-10 pl-2">
+        <h6 class="bold">100</h6>
+        <div class="font-normal grey-2 mt-2">Percentile</div>
+      </div>
+    </div>
+  </div>
+  <div class="col-xl-7 col-lg-8 mt-lg-0 mt-5">
+    <div class="bold font-sm mb-5">Weekly Course Progress</div>
+    <div><div class="chartjs-size-monitor"><div class="chartjs-size-monitor-expand"><div class=""></div></div><div class="chartjs-size-monitor-shrink"><div class=""></div></div></div>
+      <canvas height="270" width="451" id="ember102" class="ember-view bg-background-main-3 white chartjs-render-monitor" style="display: block; width: 451px; height: 270px;"></canvas>
+    </div>
+  </div>
+</div>
+</div>
+      
+</div>
+
+      <div class="divider-h w-100 mx-auto my-4"></div>
+
+      <div class="row no-gutters align-items-center justify-content-between">
+        <div class="col-sm-8 col-12">
+          <span class="normal mr-4">
+            Leave a rating
+          </span>
+          <span>
+            <span id="ember31" class="align-items-center ember-view">    <span>
+      <img src="./Coding Blocks Online_files/star_unfilled.svg" alt="">
+    </span>
+    <span>
+      <img src="./Coding Blocks Online_files/star_unfilled.svg" alt="">
+    </span>
+    <span>
+      <img src="./Coding Blocks Online_files/star_unfilled.svg" alt="">
+    </span>
+    <span>
+      <img src="./Coding Blocks Online_files/star_unfilled.svg" alt="">
+    </span>
+    <span>
+      <img src="./Coding Blocks Online_files/star_unfilled.svg" alt="">
+    </span>
+<!----></span>
+          </span>
+        </div>
+        <div class="mt-sm-0 mt-4 button-align-container">
+          <button class="button-dashed button-orange mx-2" data-ember-action="" data-ember-action-32="32">Pause</button>
+          <a href="https://online.codingblocks.com/app/player/219204" id="ember33" class="ember-view button-solid button-orange">
+            Resume Now
+          </a>
+          <div id="ember34" class="ember-view"><!----></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mb-5">
+      <div class="border-card border-none bg-background-main-1 p-lg-5 p-4">
+        <div class="d-flex align-items-center justify-content-between">
+          <h4 class="bold">My Courses</h4>
+          <a href="https://online.codingblocks.com/app/classroom" id="ember35" class="ember-view orange font-sm font-normal">View All</a>
+        </div>
+        <div class="divider-h my-4"></div>
+        <div id="ember36" class="ember-view">  <div id="ember49" class="ember-view"><div class="row no-gutters justify-content-between align-items-center mb-4">
+  <div class="col-sm-8 col-12">
+    <div class="row no-gutters align-items-center">
+      <div class="col-2">
+        <img src="./Coding Blocks Online_files/8eabb2bb-ac0c-42a2-b2b3-a01387d99d6c.svg" class="course-list-logo">
+      </div>
+      <div class="col-10 pl-xl-0 pl-3">
+        <h5 class="bold">C++ Master Course | Launchpad</h5>
+        <div class="mt-3">
+          <progress value="72" max="100" class="d-inline-block w-80 progress-orange"></progress>
+          <span class="bold ml-3">72%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="button-align-container mt-sm-0 mt-3">
+    <a href="https://online.codingblocks.com/app/classroom/course/45/run/2045" id="ember50" class="ember-view button-orange button-solid">
+      Resume
+    </a>
+  </div>
+</div></div>
+  <div id="ember52" class="ember-view"><div class="row no-gutters justify-content-between align-items-center mb-4">
+  <div class="col-sm-8 col-12">
+    <div class="row no-gutters align-items-center">
+      <div class="col-2">
+        <img src="./Coding Blocks Online_files/8eabb2bb-ac0c-42a2-b2b3-a01387d99d6c.svg" class="course-list-logo">
+      </div>
+      <div class="col-10 pl-xl-0 pl-3">
+        <h5 class="bold">C++ Master Course | Launchpad</h5>
+        <div class="mt-3">
+          <progress value="46" max="100" class="d-inline-block w-80 progress-orange"></progress>
+          <span class="bold ml-3">46%</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="button-align-container mt-sm-0 mt-3">
+    <a href="https://online.codingblocks.com/app/classroom/course/45/run/2536" id="ember53" class="ember-view button-orange button-solid">
+      Resume
+    </a>
+  </div>
+</div></div>
+</div>
+      </div>
+    </div>
+
+      <div class="mb-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="border-card border-none bg-background-main-3 h-100 px-0 py-lg-5 py-4">
+              <div class="px-lg-5 px-4">
+                <img src="./Coding Blocks Online_files/heart-orange.svg" alt="Bag">
+                <h4 class="bold mt-4">Wishlisted Courses</h4>
+                <div class="grey-2 mb-4">You have not wishlisted any course! Start Wishlisting now!</div>
+                <a href="https://online.codingblocks.com/courses" target="_blank" class="font-sm bold gradient-text-orange">Explore Courses</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+  <div class="col-md-3 col-12">
+      <h4 class="my-4">Learning Tracks</h4>
+      <div class="border-card border-none bg-gradient-pink-2 white mb-5 p-lg-5 p-4" style="background: linear-gradient(180deg, #BB6BD9 0%, #7F39AD 100%);">
+        <div class="mb-3 semi-bold yellow font-sm">
+          <img src="./Coding Blocks Online_files/fire-orange.svg" alt=""> Trending
+        </div>
+        <div class="font-lg">Become a Certified</div>
+        <h3 class="bold mb-4">Data Scientist</h3>
+        <div class="font-normal mb-4">
+          Average Salary of a Data Scientist is 15LPA
+        </div>
+        <div class="button-align-container">
+          <a href="https://online.codingblocks.com/app/tracks" id="ember38" class="ember-view button-white button-solid purple">
+            View Tracks
+          </a>
+        </div>
+      </div>
+
+    <div id="ember39" class="ember-view"><div class="border-card border-none bg-background-main-3 p-4">
+  <h3 class="bold mb-3">Hacker Blocks Report</h3>
+  <div class="grey-2">Improve your coding skills</div>
+  <div class="divider-h my-4"></div>
+  <div id="ember40" class="ember-view">  
+    <div class="grey-3">Current Rank</div>
+    <div class="row no-gutters justify-content-between align-items-center mt-2">
+      <span class="font-md bold">2233</span>
+        <span class="green">
+          <i id="ember103" class="fas fa-caret-down fa-1x ember-view"></i>
+          <span class="ml-1">34 ranks</span>
+        </span>
+    </div>
+    <div class="grey-3 mt-4 pt-2">Monthly Performance</div>
+    <div class="row no-gutters justify-content-between align-items-center mt-2">
+      <span class="font-md bold">0 Points</span>
+        <span class="green">
+          <i id="ember104" class="fas fa-caret-up fa-1x ember-view"></i>
+          <span class="ml-1">0 points</span>
+        </span>
+    </div>
+  
+</div>
+  <div class="button-align-container mt-4">
+    <a href="https://hack.codingblocks.com/app" target="_blank" class="button-solid button-orange">Continue</a>
+  </div>
+</div>
+</div>
+      <div id="ember41" class="ember-view"><div id="ember42" class="ember-view">  
+<!---->
+</div></div>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!---->
+<div class="promotion-card border-card bg-gradient-orange white">
+  <div class="promotion-cross pointer float-right" data-ember-action="" data-ember-action-43="43">
+    X
+  </div>
+  Use Code "EXT50" and get Flat 50% off on all Extension Courses
+</div>
+
+<div id="jivo-iframe-container" style="opacity: 0; visibility: hidden; width: 0px; height: 0px; overflow: hidden;"><iframe src="./Coding Blocks Online_files/saved_resource(1).html" role="presentation" allow="autoplay" title="Jivochat" name="jivo_container" id="jivo_container" frameborder="no"></iframe></div><jdiv><jdiv class="globalClass_a750"><jdiv id="jivo-player" class="player_daed"><audio preload="auto" id="jivo-sound-agent_message"><source src="https://code.jivo.ru/sounds/agent_message.mp3" type="audio/mpeg"><source src="https://code.jivo.ru/sounds/agent_message.ogg" type="audio/ogg; codecs=vorbis"><source src="https://code.jivo.ru/sounds/agent_message.wav" type="audio/wav"></audio><audio preload="auto" id="jivo-sound-notification"><source src="https://code.jivo.ru/sounds/notification.mp3" type="audio/mpeg"><source src="https://code.jivo.ru/sounds/notification.ogg" type="audio/ogg; codecs=vorbis"><source src="https://code.jivo.ru/sounds/notification.wav" type="audio/wav"></audio><audio preload="auto" id="jivo-sound-outgoing_message"><source src="https://code.jivo.ru/sounds/outgoing_message.mp3" type="audio/mpeg"><source src="https://code.jivo.ru/sounds/outgoing_message.ogg" type="audio/ogg; codecs=vorbis"><source src="https://code.jivo.ru/sounds/outgoing_message.wav" type="audio/wav"></audio></jdiv><jdiv id="jcont" style="animation: 300ms cubic-bezier(0.39, 0.24, 0.21, 0.99) 0s 1 normal both running WidgetContainer_MIN_WIDGET_c43a; --jright: 30px; --jheight: 496px; display: block; position: fixed;"><jdiv class="wrap_e5e8" dir="ltr" id="jivo_action"><jdiv class="closeButton_e1eb" id="jivo_close_button"><jdiv class="closeIcon_d6f5" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2228%22%20height%3D%2228%22%20viewBox%3D%220%200%2028%2028%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(2%202)%22%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212%22%20fill%3D%22%23FFF%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2212.75%22%20stroke%3D%22%23222D38%22%20stroke-width%3D%221.5%22%20opacity%3D%221%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cg%20fill%3D%22%23222D38%22%20opacity%3D%221%22%20transform%3D%22translate(6%206)%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22rotate(45%206.24%206.01)%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Crect%20width%3D%221.611%22%20height%3D%2213.9%22%20x%3D%225.435%22%20y%3D%22-.941%22%20rx%3D%22.806%22%20transform%3D%22scale(-1%201)%20rotate(45%200%20-9.058)%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2Fg%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv></jdiv><jdiv class="contentWrapper_f5f4 notranslate" translate="no"><jdiv class="main_ed1f"><jdiv class="headerBox_d3e6" style="height: 100%; display: block;"><jdiv class="header_ae56"><jdiv class="headerBox_ec05" style="background: linear-gradient(95deg, rgb(255, 94, 98) 20%, rgb(255, 153, 102) 80%);"><jdiv class=""><jdiv class="leaf_d51f _bottom_e46c"><jdiv class="cssLeaf_f25e" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2232%22%20height%3D%2240%22%20viewBox%3D%220%200%2032%2040%22%3E%0A%20%20%20%20%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%23ff9966%22%20d%3D%22M0%200h9.02L32%2033.196V40H0z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20fill%3D%22%2318c139%22%20d%3D%22M9%200c3.581.05%2023%205.426%2023%2033.08v.03C18.922%2030.751%209%2019.311%209%205.554V0z%22%2F%3E%0A%20%20%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A&quot;);"></jdiv></jdiv><jdiv class="header_acf5 _expanded_fffc _light_e93d showContent_b718"><jdiv class="headerContainer_b8f6"><jdiv class="avatar_ea33 _expanded_df07"><jdiv class="lightAvatar_d866"><jdiv class="avatarImg_c435" style="background-image: url(&quot;https://files.jivosite.com/avatars/476548/63e690173f98f.jpg&quot;);"></jdiv><jdiv class="onlineBadge_ae4a" style="border-color: rgb(255, 94, 98);"></jdiv></jdiv></jdiv><jdiv class="info_b41c"><jdiv class="agentName_daa4 __call_de96">Vikas</jdiv><jdiv class="title_d547 __call_de96">Consultant</jdiv></jdiv></jdiv><jdiv class="callMe_ae71"><jdiv class="callIcon_ad95"></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv style="height: 100%; display: none;"><jdiv class="body_ebbc show_bd55"><jdiv class="main_ed3b" style="bottom: 106px; opacity: 1;"><jdiv class="scrollForm_d92a __hide_b154"><jdiv class="textToForm_d121"><jdiv class="emojiIcon_fc6d emojiMessages_e0da" draggable="false" alt="✍" style="background-image: url(&quot;https://code.jivo.ru/images/emoji/270d-1f3fb.svg&quot;);">✍</jdiv> Leave your feedback</jdiv></jdiv><jdiv class="wrap_cb7a"><jdiv class="scroll_b28b" style="position: relative; overflow: hidden; width: 100%; height: 100%; display: block;"><jdiv style="position: absolute; max-height: 100%; inset: auto 0px 0px; overflow: hidden scroll; display: block; margin-right: -17px; margin-bottom: 0px;"><jdiv class="container_e16e" style="transform: translateY(0px); bottom: 0px; transition: none 0s ease 0s;"><jdiv class="main_e964"><jdiv class="agentName_c7c7">Vikas</jdiv><jdiv class="avatarBox_e054" title="Vikas"><jdiv class="avatar_ea33 _chatStyle_f90a"><jdiv class="darkAvatar_b85d"><jdiv class="avatarImg_c435" style="background-image: url(&quot;https://files.jivosite.com/avatars/476548/63e690173f98f.jpg&quot;);"></jdiv></jdiv></jdiv></jdiv><jdiv class="content_afa3"><jdiv class="main_f8b6 __agent_ee52"><jdiv class="message_c48c _green_fdd4" title="14.05.23 14:04:23"><jdiv class="textWrap_ccf7"><jdiv class="text_ca99">Hello! How may I help you?</jdiv><jdiv class="baseBox_b562 time_d21c">14:04</jdiv></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv class="main_dc5a __green_cdf9"><jdiv class="content_b63f"><jdiv class="main_f8b6 __client_a315"><jdiv class="message_c48c _green_fdd4 __client_a315" title="14.05.23 14:04:34"><jdiv class="textWrap_ccf7"><jdiv class="text_ca99">hello</jdiv><jdiv class="baseBox_b562 time_d21c">14:04<jdiv class="icon_c08e" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width%3D%2214%22%20height%3D%229%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.5%201.084%209.678.262%205.979%203.96l.823.823L10.5%201.084Zm2.473-.822L6.802%206.433%204.363%204.001l-.822.822L6.8%208.084l7-7-.828-.822ZM.24%204.823%203.5%208.084l.823-.822L1.068%204l-.829.822Z%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fsvg%3E&quot;);"></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv class="main_dfe4" title="14.05.23 14:04:34"><jdiv class="text_f717 __bot_b424" style="text-size-adjust: none;">Please introduce yourself in chat</jdiv></jdiv><jdiv class="box_e3b6 __noanim_b789"><jdiv class="mainWrap_ae69 __submited_eea8 __show_a860 __focus_c126"><jdiv class="main_b0b3 __submited_eea8 __show_a860 __focus_c126 __green_a89e" title=""><jdiv class="main_b6f1"><jdiv autocomplete="on"><jdiv class="fieldWrap_e941"><jdiv class="hint_f54a">Your name*</jdiv><input class="inputField_a4e6 __inputChat_d85c" type="name" name="name" autocomplete="name" placeholder="Your name*" title="Your name*"></jdiv><jdiv class="fieldWrap_e941"><jdiv class="hint_f54a">Your email*</jdiv><input class="inputField_a4e6 __inputChat_d85c" type="email" name="email" autocomplete="email" placeholder="Your email*" title="Your email*" maxlength="255"></jdiv><jdiv class="fieldWrap_e941"><jdiv class="hint_f54a">Your phone*</jdiv><input class="inputField_a4e6 __inputChat_d85c" type="tel" name="phone" autocomplete="tel" placeholder="Your phone*" title="Your phone*"></jdiv><jdiv class="button_f2b2 _green_c8d0 _disabled_d4fd"><jdiv class="text_c6c4">Send</jdiv></jdiv><jdiv class="buttonWrapper_f261 __show_a860"><jdiv class="submitSuccess_fde0 __show_a860">Thank you!  <jdiv class="emojiIcon_fc6d emojiMessages_e0da" draggable="false" alt="🎉" style="background-image: url(&quot;https://code.jivo.ru/images/emoji/1f389.svg&quot;);">🎉</jdiv> </jdiv></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv class="main_e964"><jdiv class="agentName_c7c7">Vikas</jdiv><jdiv class="avatarBox_e054" title="Vikas"><jdiv class="avatar_ea33 _chatStyle_f90a"><jdiv class="darkAvatar_b85d"><jdiv class="avatarImg_c435" style="background-image: url(&quot;https://files.jivosite.com/avatars/476548/63e690173f98f.jpg&quot;);"></jdiv></jdiv></jdiv></jdiv><jdiv class="content_afa3"><jdiv class="main_f8b6 __agent_ee52"><jdiv class="message_c48c _green_fdd4" title="14.05.23 14:04:56"><jdiv class="textWrap_ccf7"><jdiv class="text_ca99">Hello! How may I help you?</jdiv><jdiv class="baseBox_b562 time_d21c">14:04</jdiv></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv class="main_dc5a __green_cdf9"><jdiv class="content_b63f"><jdiv class="main_f8b6 __client_a315"><jdiv class="message_c48c _green_fdd4 __client_a315" title="14.05.23 14:05:33"><jdiv class="textWrap_ccf7"><jdiv class="text_ca99">i have recently completed coding blocks c++ launch pad master course</jdiv><jdiv class="baseBox_b562 time_d21c">14:05<jdiv class="icon_c08e" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width%3D%2214%22%20height%3D%229%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.5%201.084%209.678.262%205.979%203.96l.823.823L10.5%201.084Zm2.473-.822L6.802%206.433%204.363%204.001l-.822.822L6.8%208.084l7-7-.828-.822ZM.24%204.823%203.5%208.084l.823-.822L1.068%204l-.829.822Z%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fsvg%3E&quot;);"></jdiv></jdiv></jdiv></jdiv><jdiv class="message_c48c _green_fdd4 __client_a315" title="14.05.23 14:05:43"><jdiv class="textWrap_ccf7"><jdiv class="text_ca99">how to get my certifiacte</jdiv><jdiv class="baseBox_b562 time_d21c">14:05<jdiv class="icon_c08e" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width%3D%2214%22%20height%3D%229%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.5%201.084%209.678.262%205.979%203.96l.823.823L10.5%201.084Zm2.473-.822L6.802%206.433%204.363%204.001l-.822.822L6.8%208.084l7-7-.828-.822ZM.24%204.823%203.5%208.084l.823-.822L1.068%204l-.829.822Z%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fsvg%3E&quot;);"></jdiv></jdiv></jdiv></jdiv><jdiv class="message_c48c _green_fdd4 __client_a315" title="14.05.23 14:06:04"><jdiv class="textWrap_ccf7"><jdiv class="text_ca99">as it shows mentor approved for request</jdiv><jdiv class="baseBox_b562 time_d21c">14:06<jdiv class="icon_c08e" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width%3D%2214%22%20height%3D%229%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M10.5%201.084%209.678.262%205.979%203.96l.823.823L10.5%201.084Zm2.473-.822L6.802%206.433%204.363%204.001l-.822.822L6.8%208.084l7-7-.828-.822ZM.24%204.823%203.5%208.084l.823-.822L1.068%204l-.829.822Z%22%20fill%3D%22%23ffffff%22%2F%3E%3C%2Fsvg%3E&quot;);"></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv class="main_e964"><jdiv class="agentName_c7c7">Vikas</jdiv><jdiv class="avatarBox_e054" title="Vikas"><jdiv class="avatar_ea33 _chatStyle_f90a"><jdiv class="darkAvatar_b85d"><jdiv class="avatarImg_c435" style="background-image: url(&quot;https://files.jivosite.com/avatars/476548/63e690173f98f.jpg&quot;);"></jdiv></jdiv></jdiv></jdiv><jdiv class="content_afa3"><jdiv class="main_f8b6 __agent_ee52"><jdiv class="message_c48c _green_fdd4" title="14.05.23 14:07:11"><jdiv class="textWrap_ccf7"><jdiv class="text_ca99">Once you click on generate certificate it will take 48-72hr</jdiv><jdiv class="baseBox_b562 time_d21c">14:07</jdiv></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv class="rail_c1aa" style="position: absolute; width: 8px; transition: opacity 200ms ease 0s; opacity: 0; right: 3px; bottom: 2px; top: 2px; border-radius: 4px; visibility: hidden;"><jdiv style="position: relative; display: block; width: 100%; cursor: pointer; border-radius: inherit; background-color: rgb(214, 212, 212);"></jdiv></jdiv></jdiv><jdiv class="avatarShadow_a1c1" style="margin-bottom: 106px;"><jdiv class="avatar_ea33 _chatStyle_f90a"><jdiv class="darkAvatar_b85d"><jdiv class="avatarImg_c435" style="background-image: url(&quot;https://files.jivosite.com/avatars/476548/63e690173f98f.jpg&quot;);"></jdiv></jdiv></jdiv></jdiv><jdiv class="moreBox_ab1d"><jdiv class="moreBtn_db4f" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Cdefs%3E%3Cpath%20id%3D%22a%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22rotate(-90%2012%2012)%22%3E%3Cmask%20id%3D%22b%22%20fill%3D%22%23fff%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fmask%3E%3Cg%20stroke%3D%22%23cccccc%22%20stroke-linecap%3D%22round%22%20stroke-width%3D%221.5%22%20mask%3D%22url(%23b)%22%3E%3Cpath%20d%3D%22M13.343%2016.814l-4.657-4.657L13.343%207.5%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E&quot;);"></jdiv><jdiv class="moreBadge_b692"></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv class="container_ed0d"><jdiv class="wrapper_dc76"><jdiv class="main_ea9a"></jdiv></jdiv></jdiv><jdiv class="popup_ac1b"><jdiv style="top: 0px; position: absolute; width: 100%; height: 100%; display: none;"><jdiv class="main_affc" style="display: block;"><jdiv><jdiv class="text_a499">We'll call you in 30 seconds!</jdiv><jdiv class="callBox_daf6"><jdiv class="container_ee92 __inFormMod_cc6d"><jdiv class="inputWrap_b207"><jdiv class="flagWrap_c3da"><jdiv class="flagIcon_fa5d" style="background-image: url(&quot;https://code.jivo.ru/images/flags/IN.png&quot;);"></jdiv><jdiv class="flagArrow_ade8"><jdiv class="iconSelect_b028" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width%3D%2224%22%20height%3D%2224%22%3E%3Cdefs%3E%3Cpath%20id%3D%22a%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3C%2Fdefs%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%20transform%3D%22rotate(-90%2012%2012)%22%3E%3Cmask%20id%3D%22b%22%20fill%3D%22%23fff%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fmask%3E%3Cg%20stroke%3D%22%23959BA0%22%20stroke-linecap%3D%22round%22%20stroke-width%3D%221.5%22%20mask%3D%22url(%23b)%22%3E%3Cpath%20d%3D%22M13.343%2016.814l-4.657-4.657L13.343%207.5%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E&quot;);"></jdiv></jdiv></jdiv><jdiv class="phoneCodeWrap_e29c">+91</jdiv><input class="phoneInput_a7b3" placeholder="91 23 456789" type="text" maxlength="12" data-gramm="false" data-gramm_editor="false" data-enable-grammarly="false"><jdiv class="countryWrap_f6c1 _isScroll_c74f" style="display: none;"><jdiv style="position: relative; overflow: hidden; width: 100%; height: 100%; display: block;"><jdiv style="position: relative; max-height: 100%; inset: auto 0px 0px; overflow: hidden scroll; display: block; margin-right: -17px; margin-bottom: 0px;"><jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AF"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AF.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Afghanistan</jdiv><jdiv class="countryCode_b677">+93</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AL"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AL.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Albania</jdiv><jdiv class="countryCode_b677">+355</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="DZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/DZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Algeria</jdiv><jdiv class="countryCode_b677">+213</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AS"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AS.png&quot;);"></jdiv><jdiv class="countryName_fa2e">American Samoa</jdiv><jdiv class="countryCode_b677">+1684</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AD"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AD.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Andorra</jdiv><jdiv class="countryCode_b677">+376</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Angola</jdiv><jdiv class="countryCode_b677">+244</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AI"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AI.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Anguilla</jdiv><jdiv class="countryCode_b677">+1264</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Antigua and Barbuda</jdiv><jdiv class="countryCode_b677">+1268</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Argentina</jdiv><jdiv class="countryCode_b677">+54</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Armenia</jdiv><jdiv class="countryCode_b677">+374</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AW"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AW.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Aruba</jdiv><jdiv class="countryCode_b677">+297</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AU"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AU.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Australia</jdiv><jdiv class="countryCode_b677">+61</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Austria</jdiv><jdiv class="countryCode_b677">+43</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Azerbaijan</jdiv><jdiv class="countryCode_b677">+994</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BS"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BS.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Bahamas</jdiv><jdiv class="countryCode_b677">+1242</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BH"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BH.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Bahrain</jdiv><jdiv class="countryCode_b677">+973</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BD"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BD.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Bangladesh</jdiv><jdiv class="countryCode_b677">+880</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BB"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BB.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Barbados</jdiv><jdiv class="countryCode_b677">+1246</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BY"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BY.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Belarus</jdiv><jdiv class="countryCode_b677">+375</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Belgium</jdiv><jdiv class="countryCode_b677">+32</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Belize</jdiv><jdiv class="countryCode_b677">+501</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BJ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BJ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Benin</jdiv><jdiv class="countryCode_b677">+229</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Bermuda</jdiv><jdiv class="countryCode_b677">+1441</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Bhutan</jdiv><jdiv class="countryCode_b677">+975</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Bolivia</jdiv><jdiv class="countryCode_b677">+591</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Bosnia and Herzegovina</jdiv><jdiv class="countryCode_b677">+387</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BW"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BW.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Botswana</jdiv><jdiv class="countryCode_b677">+267</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Brazil</jdiv><jdiv class="countryCode_b677">+55</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Brunei</jdiv><jdiv class="countryCode_b677">+673</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Bulgaria</jdiv><jdiv class="countryCode_b677">+359</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BF"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BF.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Burkina Faso</jdiv><jdiv class="countryCode_b677">+226</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="BI"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/BI.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Burundi</jdiv><jdiv class="countryCode_b677">+257</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KH"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KH.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Cambodia</jdiv><jdiv class="countryCode_b677">+855</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Cameroon</jdiv><jdiv class="countryCode_b677">+237</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Canada</jdiv><jdiv class="countryCode_b677">+1</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CV"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CV.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Cape Verde</jdiv><jdiv class="countryCode_b677">+238</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KY"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KY.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Cayman Islands</jdiv><jdiv class="countryCode_b677">+1345</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CF"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CF.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Central African Republic</jdiv><jdiv class="countryCode_b677">+236</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TD"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TD.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Chad</jdiv><jdiv class="countryCode_b677">+235</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CL"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CL.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Chile</jdiv><jdiv class="countryCode_b677">+56</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">China</jdiv><jdiv class="countryCode_b677">+86</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Colombia</jdiv><jdiv class="countryCode_b677">+57</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Comoros</jdiv><jdiv class="countryCode_b677">+269</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CK"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CK.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Cook Islands</jdiv><jdiv class="countryCode_b677">+682</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Costa Rica</jdiv><jdiv class="countryCode_b677">+506</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="HR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/HR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Croatia</jdiv><jdiv class="countryCode_b677">+385</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CU"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CU.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Cuba</jdiv><jdiv class="countryCode_b677">+53</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CY"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CY.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Cyprus</jdiv><jdiv class="countryCode_b677">+357</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Czech Republic</jdiv><jdiv class="countryCode_b677">+420</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CD"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CD.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Democratic Republic of the Congo</jdiv><jdiv class="countryCode_b677">+243</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="DK"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/DK.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Denmark</jdiv><jdiv class="countryCode_b677">+45</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="DJ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/DJ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Djibouti</jdiv><jdiv class="countryCode_b677">+253</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="DM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/DM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Dominica</jdiv><jdiv class="countryCode_b677">+1767</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="DO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/DO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Dominican Republic</jdiv><jdiv class="countryCode_b677">+1</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="EC"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/EC.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Ecuador</jdiv><jdiv class="countryCode_b677">+593</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="EG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/EG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Egypt</jdiv><jdiv class="countryCode_b677">+20</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SV"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SV.png&quot;);"></jdiv><jdiv class="countryName_fa2e">El Salvador</jdiv><jdiv class="countryCode_b677">+503</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GQ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GQ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Equatorial Guinea</jdiv><jdiv class="countryCode_b677">+240</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ER"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ER.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Eritrea</jdiv><jdiv class="countryCode_b677">+291</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="EE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/EE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Estonia</jdiv><jdiv class="countryCode_b677">+372</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ET"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ET.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Ethiopia</jdiv><jdiv class="countryCode_b677">+251</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="FK"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/FK.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Falkland Islands</jdiv><jdiv class="countryCode_b677">+500</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="FO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/FO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Faroe Islands</jdiv><jdiv class="countryCode_b677">+298</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="FJ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/FJ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Fiji</jdiv><jdiv class="countryCode_b677">+679</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="FI"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/FI.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Finland</jdiv><jdiv class="countryCode_b677">+358</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="FR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/FR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">France</jdiv><jdiv class="countryCode_b677">+33</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PF"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PF.png&quot;);"></jdiv><jdiv class="countryName_fa2e">French Polynesia</jdiv><jdiv class="countryCode_b677">+689</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Gabon</jdiv><jdiv class="countryCode_b677">+241</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Gambia</jdiv><jdiv class="countryCode_b677">+220</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Georgia</jdiv><jdiv class="countryCode_b677">+995</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="DE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/DE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Germany</jdiv><jdiv class="countryCode_b677">+49</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GH"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GH.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Ghana</jdiv><jdiv class="countryCode_b677">+233</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GI"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GI.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Gibraltar</jdiv><jdiv class="countryCode_b677">+350</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Greece</jdiv><jdiv class="countryCode_b677">+30</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GL"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GL.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Greenland</jdiv><jdiv class="countryCode_b677">+299</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GD"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GD.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Grenada</jdiv><jdiv class="countryCode_b677">+1473</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GU"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GU.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Guam</jdiv><jdiv class="countryCode_b677">+1671</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Guatemala</jdiv><jdiv class="countryCode_b677">+502</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Guinea</jdiv><jdiv class="countryCode_b677">+245</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GY"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GY.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Guyana</jdiv><jdiv class="countryCode_b677">+592</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="HT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/HT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Haiti</jdiv><jdiv class="countryCode_b677">+509</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="HN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/HN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Honduras</jdiv><jdiv class="countryCode_b677">+504</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="HK"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/HK.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Hong Kong</jdiv><jdiv class="countryCode_b677">+852</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="HU"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/HU.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Hungary</jdiv><jdiv class="countryCode_b677">+36</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="IS"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/IS.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Iceland</jdiv><jdiv class="countryCode_b677">+354</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="IN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/IN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">India</jdiv><jdiv class="countryCode_b677">+91</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ID"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ID.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Indonesia</jdiv><jdiv class="countryCode_b677">+62</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="IR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/IR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Iran</jdiv><jdiv class="countryCode_b677">+98</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="IQ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/IQ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Iraq</jdiv><jdiv class="countryCode_b677">+964</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="IE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/IE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Ireland</jdiv><jdiv class="countryCode_b677">+353</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="IL"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/IL.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Israel</jdiv><jdiv class="countryCode_b677">+972</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="IT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/IT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Italy</jdiv><jdiv class="countryCode_b677">+39</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="JM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/JM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Jamaica</jdiv><jdiv class="countryCode_b677">+1876</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="JP"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/JP.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Japan</jdiv><jdiv class="countryCode_b677">+81</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="JO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/JO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Jordan</jdiv><jdiv class="countryCode_b677">+962</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Kazakhstan</jdiv><jdiv class="countryCode_b677">+7</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Kenya</jdiv><jdiv class="countryCode_b677">+254</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KI"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KI.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Kiribati</jdiv><jdiv class="countryCode_b677">+686</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KW"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KW.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Kuwait</jdiv><jdiv class="countryCode_b677">+965</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Kyrgyzstan</jdiv><jdiv class="countryCode_b677">+996</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Laos</jdiv><jdiv class="countryCode_b677">+856</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LV"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LV.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Latvia</jdiv><jdiv class="countryCode_b677">+371</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LB"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LB.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Lebanon</jdiv><jdiv class="countryCode_b677">+961</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LS"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LS.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Lesotho</jdiv><jdiv class="countryCode_b677">+266</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Liberia</jdiv><jdiv class="countryCode_b677">+231</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LY"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LY.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Libya</jdiv><jdiv class="countryCode_b677">+218</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LI"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LI.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Liechtenstein</jdiv><jdiv class="countryCode_b677">+423</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Lithuania</jdiv><jdiv class="countryCode_b677">+370</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LU"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LU.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Luxembourg</jdiv><jdiv class="countryCode_b677">+352</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Macao</jdiv><jdiv class="countryCode_b677">+853</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MK"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MK.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Macedonia</jdiv><jdiv class="countryCode_b677">+389</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Madagascar</jdiv><jdiv class="countryCode_b677">+261</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MW"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MW.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Malawi</jdiv><jdiv class="countryCode_b677">+265</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MY"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MY.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Malaysia</jdiv><jdiv class="countryCode_b677">+60</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MV"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MV.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Maldives</jdiv><jdiv class="countryCode_b677">+960</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ML"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ML.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Mali</jdiv><jdiv class="countryCode_b677">+223</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Malta</jdiv><jdiv class="countryCode_b677">+356</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MH"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MH.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Marshall Islands</jdiv><jdiv class="countryCode_b677">+692</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MQ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MQ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Martinique</jdiv><jdiv class="countryCode_b677">+596</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Mauritania</jdiv><jdiv class="countryCode_b677">+222</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MU"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MU.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Mauritius</jdiv><jdiv class="countryCode_b677">+230</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="YT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/YT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Mayotte</jdiv><jdiv class="countryCode_b677">+262</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MX"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MX.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Mexico</jdiv><jdiv class="countryCode_b677">+52</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="FM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/FM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Micronesia</jdiv><jdiv class="countryCode_b677">+691</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MD"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MD.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Moldova</jdiv><jdiv class="countryCode_b677">+373</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MC"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MC.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Monaco</jdiv><jdiv class="countryCode_b677">+377</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Mongolia</jdiv><jdiv class="countryCode_b677">+976</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ME"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ME.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Montenegro</jdiv><jdiv class="countryCode_b677">+382</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MS"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MS.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Montserrat</jdiv><jdiv class="countryCode_b677">+1664</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Morocco</jdiv><jdiv class="countryCode_b677">+212</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Mozambique</jdiv><jdiv class="countryCode_b677">+258</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Myanmar</jdiv><jdiv class="countryCode_b677">+95</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Namibia</jdiv><jdiv class="countryCode_b677">+264</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Nauru</jdiv><jdiv class="countryCode_b677">+674</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NP"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NP.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Nepal</jdiv><jdiv class="countryCode_b677">+977</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NL"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NL.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Netherlands</jdiv><jdiv class="countryCode_b677">+31</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Netherlands Antilles</jdiv><jdiv class="countryCode_b677">+599</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NC"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NC.png&quot;);"></jdiv><jdiv class="countryName_fa2e">New Caledonia</jdiv><jdiv class="countryCode_b677">+687</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">New Zealand</jdiv><jdiv class="countryCode_b677">+64</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NI"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NI.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Nicaragua</jdiv><jdiv class="countryCode_b677">+505</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Niger</jdiv><jdiv class="countryCode_b677">+227</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Nigeria</jdiv><jdiv class="countryCode_b677">+234</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NU"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NU.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Niue</jdiv><jdiv class="countryCode_b677">+683</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KP"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KP.png&quot;);"></jdiv><jdiv class="countryName_fa2e">North Korea</jdiv><jdiv class="countryCode_b677">+850</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="MP"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/MP.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Northern Mariana Islands</jdiv><jdiv class="countryCode_b677">+1670</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="NO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/NO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Norway</jdiv><jdiv class="countryCode_b677">+47</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="OM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/OM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Oman</jdiv><jdiv class="countryCode_b677">+968</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PK"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PK.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Pakistan</jdiv><jdiv class="countryCode_b677">+92</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PW"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PW.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Palau</jdiv><jdiv class="countryCode_b677">+680</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PS"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PS.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Palestine</jdiv><jdiv class="countryCode_b677">+970</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Panama</jdiv><jdiv class="countryCode_b677">+507</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Papua New Guinea</jdiv><jdiv class="countryCode_b677">+675</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PY"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PY.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Paraguay</jdiv><jdiv class="countryCode_b677">+595</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Peru</jdiv><jdiv class="countryCode_b677">+51</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PH"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PH.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Philippines</jdiv><jdiv class="countryCode_b677">+63</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PL"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PL.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Poland</jdiv><jdiv class="countryCode_b677">+48</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Portugal</jdiv><jdiv class="countryCode_b677">+351</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="PR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/PR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Puerto Rico</jdiv><jdiv class="countryCode_b677">+1</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="QA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/QA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Qatar</jdiv><jdiv class="countryCode_b677">+974</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Republic of the Congo</jdiv><jdiv class="countryCode_b677">+242</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="RE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/RE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Reunion</jdiv><jdiv class="countryCode_b677">+262</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="RO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/RO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Romania</jdiv><jdiv class="countryCode_b677">+40</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="RU"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/RU.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Russian Federation</jdiv><jdiv class="countryCode_b677">+7</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="RW"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/RW.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Rwanda</jdiv><jdiv class="countryCode_b677">+250</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Saint Kitts and Nevis</jdiv><jdiv class="countryCode_b677">+1869</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LC"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LC.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Saint Lucia</jdiv><jdiv class="countryCode_b677">+1758</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SX"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SX.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Saint Martin</jdiv><jdiv class="countryCode_b677">+1721</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="VC"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/VC.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Saint Vincent and the Grenadines</jdiv><jdiv class="countryCode_b677">+1784</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">San Marino</jdiv><jdiv class="countryCode_b677">+378</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ST"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ST.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Sao Tome and Principe</jdiv><jdiv class="countryCode_b677">+239</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Saudi Arabia</jdiv><jdiv class="countryCode_b677">+966</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Senegal</jdiv><jdiv class="countryCode_b677">+221</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="RS"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/RS.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Serbia</jdiv><jdiv class="countryCode_b677">+381</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SC"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SC.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Seychelles</jdiv><jdiv class="countryCode_b677">+248</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SL"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SL.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Sierra Leone</jdiv><jdiv class="countryCode_b677">+232</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Singapore</jdiv><jdiv class="countryCode_b677">+65</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SK"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SK.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Slovakia</jdiv><jdiv class="countryCode_b677">+421</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SI"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SI.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Slovenia</jdiv><jdiv class="countryCode_b677">+386</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SB"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SB.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Solomon Islands</jdiv><jdiv class="countryCode_b677">+677</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Somalia</jdiv><jdiv class="countryCode_b677">+252</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ZA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ZA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">South Africa</jdiv><jdiv class="countryCode_b677">+27</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="KR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/KR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">South Korea</jdiv><jdiv class="countryCode_b677">+82</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SS"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SS.png&quot;);"></jdiv><jdiv class="countryName_fa2e">South Sudan</jdiv><jdiv class="countryCode_b677">+211</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ES"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ES.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Spain</jdiv><jdiv class="countryCode_b677">+34</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="LK"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/LK.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Sri Lanka</jdiv><jdiv class="countryCode_b677">+94</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SD"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SD.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Sudan</jdiv><jdiv class="countryCode_b677">+249</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Suriname</jdiv><jdiv class="countryCode_b677">+597</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Swaziland</jdiv><jdiv class="countryCode_b677">+268</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Sweden</jdiv><jdiv class="countryCode_b677">+46</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="CH"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/CH.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Switzerland</jdiv><jdiv class="countryCode_b677">+41</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="SY"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/SY.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Syria</jdiv><jdiv class="countryCode_b677">+963</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TW"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TW.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Taiwan</jdiv><jdiv class="countryCode_b677">+886</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TJ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TJ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Tajikistan</jdiv><jdiv class="countryCode_b677">+992</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Tanzania</jdiv><jdiv class="countryCode_b677">+255</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TH"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TH.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Thailand</jdiv><jdiv class="countryCode_b677">+66</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TL"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TL.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Timor-Leste</jdiv><jdiv class="countryCode_b677">+670</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Togo</jdiv><jdiv class="countryCode_b677">+228</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TK"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TK.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Tokelau</jdiv><jdiv class="countryCode_b677">+690</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TO"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TO.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Tonga</jdiv><jdiv class="countryCode_b677">+676</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TT"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TT.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Trinidad and Tobago</jdiv><jdiv class="countryCode_b677">+1868</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Tunisia</jdiv><jdiv class="countryCode_b677">+216</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TR"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TR.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Turkey</jdiv><jdiv class="countryCode_b677">+90</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Turkmenistan</jdiv><jdiv class="countryCode_b677">+993</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TC"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TC.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Turks and Caicos Islands</jdiv><jdiv class="countryCode_b677">+1649</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="TV"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/TV.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Tuvalu</jdiv><jdiv class="countryCode_b677">+688</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="AE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/AE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">UAE</jdiv><jdiv class="countryCode_b677">+971</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="UG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/UG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Uganda</jdiv><jdiv class="countryCode_b677">+256</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="UA"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/UA.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Ukraine</jdiv><jdiv class="countryCode_b677">+380</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="GB"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/GB.png&quot;);"></jdiv><jdiv class="countryName_fa2e">United Kingdom</jdiv><jdiv class="countryCode_b677">+44</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="US"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/US.png&quot;);"></jdiv><jdiv class="countryName_fa2e">United States</jdiv><jdiv class="countryCode_b677">+1</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="UY"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/UY.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Uruguay</jdiv><jdiv class="countryCode_b677">+598</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="UZ"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/UZ.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Uzbekistan</jdiv><jdiv class="countryCode_b677">+998</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="VU"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/VU.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Vanuatu</jdiv><jdiv class="countryCode_b677">+678</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="VE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/VE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Venezuela</jdiv><jdiv class="countryCode_b677">+58</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="VN"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/VN.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Vietnam</jdiv><jdiv class="countryCode_b677">+84</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="VG"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/VG.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Virgin Islands, British</jdiv><jdiv class="countryCode_b677">+1284</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="VI"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/VI.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Virgin Islands, U.S.</jdiv><jdiv class="countryCode_b677">+1340</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="WF"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/WF.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Wallis and Futuna</jdiv><jdiv class="countryCode_b677">+681</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="YE"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/YE.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Yemen</jdiv><jdiv class="countryCode_b677">+967</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ZM"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ZM.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Zambia</jdiv><jdiv class="countryCode_b677">+260</jdiv></jdiv><jdiv class="listItem_e4cc" dgname="listItem" data-code="ZW"><jdiv class="flagIcon_fa5d list_e859" style="background-image: url(&quot;https://code.jivo.ru/images/flags/ZW.png&quot;);"></jdiv><jdiv class="countryName_fa2e">Zimbabwe</jdiv><jdiv class="countryCode_b677">+263</jdiv></jdiv></jdiv></jdiv><jdiv class="rail_e04f" style="position: absolute; width: 8px; right: 3px; bottom: 2px; top: 2px; border-radius: 4px; visibility: hidden;"><jdiv style="position: relative; display: block; width: 100%; cursor: pointer; border-radius: inherit; background-color: rgb(214, 212, 212);"></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv class="inputButton_a5c6 _green_c8d0"><jdiv class="buttonIcon_eeaf" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2224%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%3E%3Cdefs%3E%3Cpath%20id%3D%22a%22%20d%3D%22M0%200h24v24H0z%22%2F%3E%3C%2Fdefs%3E%3Cg%20transform%3D%22rotate(-180%2012%2012)%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Cmask%20id%3D%22b%22%20fill%3D%22%23fff%22%3E%3Cuse%20xlink%3Ahref%3D%22%23a%22%2F%3E%3C%2Fmask%3E%3Cg%20mask%3D%22url(%23b)%22%20stroke%3D%22%23FFF%22%20stroke-linecap%3D%22round%22%20stroke-width%3D%222%22%3E%3Cpath%20d%3D%22M14.458%2017.911l-6.364-6.364%206.364-6.364%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E&quot;);"></jdiv></jdiv><jdiv id="callme-start-call" class="can-call"></jdiv></jdiv></jdiv><jdiv class="waitBox_e6ec" style="display: none;"><jdiv class="waitText_ef1c"> Receive a callback in</jdiv><jdiv class="timerBox_a3d3"><jdiv class="count_c4e7">30</jdiv></jdiv><jdiv class="waitText_ef1c"> seconds</jdiv></jdiv><jdiv style="display: none;"><jdiv class="waitText_ef1c">Connecting...</jdiv><jdiv class="connectBox_b37a"><jdiv class="connectIcon_d5c5" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2289%22%20height%3D%2272%22%3E%0A%20%20%3Cg%20fill%3D%22%2318C139%22%20fill-rule%3D%22evenodd%22%3E%0A%20%20%20%20%3Cpath%20fill-rule%3D%22nonzero%22%20d%3D%22M73.237%2053.784L60.17%2046.72c-4.356-2.38-4.504-.818-9.081%204.09-1.108%201.19-3.175%204.313-5.611%203.718-5.095-1.264-14.618-8.774-17.72-12.195-1.476-1.636-7.825-9.443-7.899-11.972-.148-3.866%208.269-5.8%205.537-13.161L19.564%204.038C14.1-8.602-1.182%2011.623.073%2021.066c3.248%2023.275%2043.78%2060.9%2066.372%2048.482%205.02-2.825%2011.813-12.715%206.792-15.764z%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E&quot;);"></jdiv><jdiv class="pinBox_f3ae"><jdiv class="pin1_c811"></jdiv><jdiv class="pin2_d615"></jdiv><jdiv class="pin3_f2a1"></jdiv></jdiv></jdiv></jdiv><jdiv class="pin_c076" style="display: block;"></jdiv><jdiv class="popupClose_c9c2"><jdiv class="closeIcon_f928" style="background-image: url(&quot;data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%3E%0A%20%20%3Cg%20fill%3D%22%23959DA5%22%20fill-rule%3D%22evenodd%22%20transform%3D%22translate(7%207)%22%3E%0A%20%20%20%20%3Crect%20width%3D%221.5%22%20height%3D%2212.941%22%20x%3D%225.06%22%20y%3D%22-.876%22%20rx%3D%22.75%22%20transform%3D%22rotate(45%205.81%205.595)%22%2F%3E%0A%20%20%20%20%3Crect%20width%3D%221.5%22%20height%3D%2212.941%22%20x%3D%225.06%22%20y%3D%22-.876%22%20rx%3D%22.75%22%20transform%3D%22scale(-1%201)%20rotate(45%200%20-8.433)%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E&quot;);"></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv></jdiv><jdiv class="pseudoHeight_b0ee"></jdiv><jdiv class="jivoMouseTrack_fa33"></jdiv></jdiv></jdiv></body></html>
